@@ -12,6 +12,7 @@
   "author": "dethz",
   "license": "MIT",
   "dependencies": {
+    "yargonaut": "^1.1.4",
     "yargs": "^17.7.1"
   }
 }
