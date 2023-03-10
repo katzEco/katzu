@@ -1,12 +1,14 @@
 {
   "name": "katzu",
   "version": "1.0.0",
-  "description": "",
+  "description": "all-rounding package",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bin": {
+    "katsu": "./bin/cli.js"
   },
-  "keywords": [],
-  "author": "",
+  "scripts": {
+    "dev": "node ./bin/cli.js"
+  },
+  "author": "dethz",
   "license": "MIT"
 }
