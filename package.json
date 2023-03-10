@@ -10,5 +10,8 @@
     "dev": "node ./bin/cli.js"
   },
   "author": "dethz",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "yargs": "^17.7.1"
+  }
 }
