@@ -14,21 +14,20 @@ let argv = yargs(process.argv.slice(2)).help().argv;
 let cmd = argv._[0]
 let subCMD = argv._[1]
 
-let tyDon = require('tydon')
-let rand = require('ran-string')
+let akat = require('./index')
 
 if (cmd != undefined) {
   if (cmd == 'tydon') {
     if (subCMD != undefined) {
-      console.log(tyDon.tyDon(subCMD));
+      console.log(akat.tyDon(subCMD));
     } else {
-      console.log(tyDon.tyDon())
+      console.log(akat.tyDon())
     }
   } else if (cmd == 'ranString') {
     if (subCMD != undefined) {
-      console.log(rand.rand(subCMD))
+      console.log(akat.ranString(subCMD))
     } else {
-      console.log(rand.rand(10))
+      console.log(akat.ranString(10))
     }
   }
 } else {
