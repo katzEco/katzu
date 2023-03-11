@@ -7,7 +7,7 @@ exports.tyDon = function (inp) {
   if (inp != undefined) {
     epoch = tydon.tyDon(inp)
   } else {
-    epoch = tydon.tydon()
+    epoch = tydon.tyDon()
   }
 
   return epoch
