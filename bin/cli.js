@@ -15,6 +15,7 @@ let cmd = argv._[0]
 let subCMD = argv._[1]
 
 let tyDon = require('tydon')
+let rand = require('ran-string')
 
 if (cmd != undefined) {
   if (cmd == 'tydon') {
@@ -22,6 +23,12 @@ if (cmd != undefined) {
       console.log(tyDon.tyDon(subCMD));
     } else {
       console.log(tyDon.tyDon())
+    }
+  } else if (cmd == 'ranString') {
+    if (subCMD != undefined) {
+      console.log(rand.rand(subCMD))
+    } else {
+      console.log(rand.rand(10))
     }
   }
 } else {
