@@ -98,6 +98,14 @@ parent-require@^1.0.0:
   resolved "https://registry.yarnpkg.com/parent-require/-/parent-require-1.0.0.tgz#746a167638083a860b0eef6732cb27ed46c32977"
   integrity sha512-2MXDNZC4aXdkkap+rBBMv0lUsfJqvX5/2FiYYnfCnorZt3Pk06/IOR5KeaoghgS2w07MLWgjbsnyaq6PdHn2LQ==
 
+ran-string@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/ran-string/-/ran-string-1.0.1.tgz#4fc813214f1d7756919000a65b1223425b0f10d1"
+  integrity sha512-849MT4UMY+yHUb6/vvhyHoAlG+14JeE+ESY/J89CpDmTS/qQs43tRREsKDj5igK+aH/foTr1leXL8rWcdvKllQ==
+  dependencies:
+    yargonaut "^1.1.4"
+    yargs "^17.2.1"
+
 require-directory@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/require-directory/-/require-directory-2.1.1.tgz#8c64ad5fd30dab1c976e2344ffe7f792a6a6df42"
