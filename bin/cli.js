@@ -9,11 +9,21 @@ require("yargonaut")
 
 let yargs = require('yargs/yargs')
 
-let argv = yargs(process.argv.slice(2))
-  .help().argv;
+let argv = yargs(process.argv.slice(2)).help().argv;
 
-if (argv._[0] != undefined) {
-  console.log('hi');
+let cmd = argv._[0]
+let subCMD = argv._[1]
+
+let tyDon = require('tydon')
+
+if (cmd != undefined) {
+  if (cmd == 'tydon') {
+    if (subCMD != undefined) {
+      console.log(tyDon.tyDon(subCMD));
+    } else {
+      console.log(tyDon.tyDon())
+    }
+  }
 } else {
   console.log('bye');
 }
