@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "node ./bin/cli.js"
   },
-  "author": "dethz",
+  "author": "detzz",
   "license": "MIT",
   "dependencies": {
     "yargonaut": "^1.1.4",
