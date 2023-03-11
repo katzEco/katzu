@@ -17,13 +17,13 @@ let subCMD = argv._[1]
 let akat = require('./index')
 
 if (cmd != undefined) {
-  if (cmd == 'tydon') {
+  if (cmd == 'tydon' || cmd == 'tyDon') {
     if (subCMD != undefined) {
       console.log(akat.tyDon(subCMD));
     } else {
       console.log(akat.tyDon())
     }
-  } else if (cmd == 'ranString') {
+  } else if (cmd == 'ranString' || cmd == 'ranstring') {
     if (subCMD != undefined) {
       console.log(akat.ranString(subCMD))
     } else {
