@@ -2,7 +2,7 @@
   "name": "katzu",
   "version": "1.0.0",
   "description": "all-rounding package",
-  "main": "index.js",
+  "main": "./bin/cli.js",
   "bin": {
     "katsu": "./bin/cli.js"
   },
